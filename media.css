@@ -1,0 +1,106 @@
+@media (max-width: 991px) {
+  .login-menu {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .body-wraper {
+    /*  grid-template-columns: 1fr minmax(0, 364px) minmax(0, 364px) 1fr; */
+    grid-template-columns: 1fr minmax(0, 936px) 1fr;
+
+    section.hero,
+    section.brands,
+    section.pricing,
+    section.services,
+    section.feature,
+    section.about,
+    section.products,
+    section.ready,
+    section.ready,
+    section.newslatter,
+    footer {
+      grid-column: 2 / 3;
+    }
+    .pricing-cards,
+    .services-cards,
+    .feature-blocks,
+    .products-zones,
+    form {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+    .pricing-cards div.card,
+    .serve-card,
+    .block,
+    .zone,
+    div.newslatter-container > form > input,
+    div.newslatter-container > form > button,
+    .social,
+    .links {
+      max-width: 330px;
+      width: 50%;
+      /* flex: 0 0 auto; */
+    }
+
+    .hero-img {
+      top: 131px;
+      max-width: 650px;
+      right: -100px;
+    }
+
+    section.hero {
+      align-items: center;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .body-wraper {
+    /*  grid-template-columns: 1fr minmax(0, 364px) minmax(0, 364px) 1fr; */
+    grid-template-columns: 1fr minmax(0, 1294px) 1fr;
+
+    .pricing-cards,
+    .services-cards,
+    .feature-blocks,
+    .products-zones,
+    form {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+
+    .pricing-cards div.card,
+    .serve-card,
+    .block,
+    .zone,
+    div.newslatter-container > form > input,
+    div.newslatter-container > form > button,
+    .social,
+    .links {
+      max-width: 409px;
+      width: 31.65%;
+      flex: 0 0 auto;
+    }
+    .hero-img {
+      top: 100px;
+      max-width: 800px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .line-wraper {
+    display: none;
+  }
+
+  a.login {
+    display: none;
+  }
+}
+/* @media (max-width: 1024px) {
+  .body-wraper {
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  }
+} */
