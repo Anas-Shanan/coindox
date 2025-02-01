@@ -20,8 +20,9 @@
  */
     width: min(calc(100% - 1.5rem), 1294px);
 
-    /* display: grid;
-    grid-template-columns: minmax(0, 1294px); */
+    /*     display: grid;
+    grid-column: 2 / 3;
+    grid-template-columns: subgrid; */
 
     background-color: #111828;
     z-index: 100;
@@ -31,8 +32,25 @@
   to {
     
     grid-column: 2 / 3;
-    width: min(calc(100% - 1.5rem), 1294px);
+    
 
   }
 }
  */
+.fadein-up {
+  animation: fadein-up ease forwards;
+  animation-timeline: view();
+  animation-range: entry entry 400px;
+}
+
+@keyframes fadein-up {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
