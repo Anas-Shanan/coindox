@@ -29,10 +29,55 @@
 
             <div class="login-menu">
               <a class="login" href="#">
-                <img src="./assets/svg/user.svg" alt="" />
+                <img src="./assets/svg/user.svg" alt="user-icon" />
                 LOGIN
               </a>
-              <a class="menu" href="#"> <i class="fa-solid fa-bars"></i> </a>
+              <label class="menu-lines" for="open-sign-checkbox"
+                ><div class="lines">
+                  <span></span><span></span><span></span><span></span>
+                </div>
+                <input
+                  type="checkbox"
+                  name="open-sign-checkbox"
+                  id="open-sign-checkbox"
+                />
+              </label>
+              <div id="sidebar">
+                <div class="close">
+                  <span></span>
+                  <span></span>
+
+                  <label id="close-sign-checkbox" for="open-sign-checkbox">
+                    <!-- <input
+                      type="checkbox"
+                      name="close-sign-checkbox"
+                      id="close-sign-checkbox"
+                  /> --></label
+                  >
+                </div>
+                <div><img src="./assets/svg/logo-3.svg" alt="logo-icon" /></div>
+                <label for="search"></label>
+
+                <input
+                  type="text"
+                  name="search"
+                  id="search"
+                  placeholder="Search Keywords"
+                />
+                <ul>
+                  <li><a href="#">Home</a></li>
+
+                  <li><a href="#pricing">Pricing</a></li>
+
+                  <li><a href="#services">Services</a></li>
+
+                  <li><a href="#products">Products</a></li>
+
+                  <li><a href="#FAQ">FAQ</a></li>
+
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </header>
@@ -92,7 +137,7 @@
             </div>
           </div>
         </section>
-        <section class="pricing">
+        <section id="pricing" class="pricing">
           <div class="pricing-container">
             <div class="pricing-text">
               <h2 class="border-left">Product</h2>
@@ -161,7 +206,7 @@
           </div>
         </section>
 
-        <section class="services">
+        <section id="services" class="services">
           <div class="services-container">
             <h2 class="border-left">Services</h2>
             <div class="services-cards">
@@ -251,6 +296,75 @@
             </div>
           </div>
         </section>
+        <section id="FAQ" class="questions">
+          <div class="q-container">
+            <div class="q-text">
+              <h2 class="border-left">Questions</h2>
+            </div>
+            <div class="FAQ">
+              <details open>
+                <summary>How does it work?</summary>
+                <p>
+                  Bitcoin mining is the process by which new bitcoins are
+                  created and added to the circulating supply. It also serves as
+                  the mechanism through which transactions are verified and
+                  added to the public ledger known as the blockchain. Here's how
+                  it works:
+                </p>
+              </details>
+              <details name="q">
+                <summary>How to withdraw my icome?</summary>
+                <p>
+                  Withdrawing your Bitcoin mining income involves several steps
+                  to ensure the safe and proper transfer of your earnings.
+                  Here's a general outline of the process:
+                </p>
+              </details>
+              <details name="q">
+                <summary>Do I need to purchase equipment?</summary>
+                <p>
+                  Yes, if you want to engage in Bitcoin mining, you will
+                  generally need to purchase specialized equipment known as
+                  mining hardware. However, the specifics can vary based on your
+                  approach to mining and the current state of the industry. Here
+                  are some things to consider:
+                </p>
+              </details>
+              <details name="q">
+                <summary>Can I open multiple accounts in your program?</summary>
+                <p>
+                  I am not affiliated with any specific Bitcoin mining program,
+                  but I can provide general guidance.
+                </p>
+              </details>
+              <details name="q">
+                <summary>Do you charge withdrawalfees?</summary>
+                <p>
+                  I do not charge any fees myself, as I am a text-based AI model
+                  developed by OpenAI. However, when it comes to cryptocurrency
+                  transactions, including withdrawals from exchanges or wallets,
+                  fees can be incurred due to the network's design and the
+                  services you are using. Here's a brief explanation:
+                </p>
+              </details>
+            </div>
+            <details name="q">
+              <summary>How does the affiliate program work?</summary>
+              <p>
+                Affiliate programs are marketing strategies that reward
+                individuals or entities (affiliates) for bringing in new
+                customers or users to a business or platform. These programs are
+                quite common in various industries, including the cryptocurrency
+                and blockchain space. However, I do not have access to real-time
+                information, and my knowledge is based on information available
+                up until September 2021. Therefore, I can provide a general
+                overview of how affiliate programs typically work, but you
+                should consult the specific program's terms and conditions for
+                accurate and up-to-date information.
+              </p>
+            </details>
+          </div>
+        </section>
 
         <section class="about">
           <div class="about-container">
@@ -267,9 +381,17 @@
                 and turn your aspirations into profitable outcomes.
               </p>
             </div>
+            <div class="about-hidden-img">
+              <div class="ab-img1">
+                <img src="./assets/img/about/abt_01.png" alt="" />
+              </div>
+              <div class="ab-img2">
+                <img src="./assets/img/about/abt_02.png" alt="" />
+              </div>
+            </div>
           </div>
         </section>
-        <section class="products">
+        <section id="#products" class="products">
           <div class="products-container">
             <div class="products-text">
               <h2 class="border-left">How to earn?</h2>
@@ -411,15 +533,12 @@
                   <li><a href="/">How Coindox work ?</a></li>
                 </ul>
               </div>
-              </div>
             </div>
+          </div>
 
-            <div class="copy-rights">
-              <div>Copyright © 2025 Coindox. All rights reserved.</div>
-              <div>Developed  by XpressBuddy</div>
-
-
-            </div>
+          <div class="copy-rights">
+            <div>Copyright © 2025 Coindox. All rights reserved.</div>
+            <div>Developed by XpressBuddy</div>
           </div>
         </footer>
 

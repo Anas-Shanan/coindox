@@ -10,3 +10,29 @@
   font-family: "PlusJakartaSans";
   font-weight: 400;
 }
+
+@keyframes fadein {
+  to {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    /*     width: min(1294px, 98%);
+ */
+    width: min(calc(100% - 1.5rem), 1294px);
+
+    /* display: grid;
+    grid-template-columns: minmax(0, 1294px); */
+
+    background-color: #111828;
+    z-index: 100;
+  }
+}
+/* @keyframes fadein-header {
+  to {
+    
+    grid-column: 2 / 3;
+    width: min(calc(100% - 1.5rem), 1294px);
+
+  }
+}
+ */
