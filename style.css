@@ -14,9 +14,7 @@
   --text-color2: #212529;
   --gradient-color-from: #45acab;
   --gradient-color-to: #4788ac;
-
   --footer-gray: #768999;
-
   --bg-linear-gradient: linear-gradient(90deg, #45acab, #4788ac);
   --bg-linear-gradient2: linear-gradient(227deg, #45acab, #4788ac);
 }
@@ -24,7 +22,6 @@ a:-webkit-any-link {
   text-decoration: none;
   color: var(--primary-color);
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -259,7 +256,6 @@ header {
 }
 
 .header-wraper {
-  width: 100%;
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -374,7 +370,8 @@ header {
  */
 
 #sidebar {
-  height: 100dvh;
+  height: 100vh;
+  height: 100svh;
   width: 310px;
   padding: 0px 20px 250px 20px;
   margin-bottom: 50px;
@@ -413,6 +410,7 @@ header {
     border: 2px solid rgba(150, 144, 162, 0.09);
     padding: 15px;
     margin: 50px 0px 20px 0px;
+    color: white;
     background-color: #111828;
     &:focus {
       outline: 2px solid #45acab;
