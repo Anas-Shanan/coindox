@@ -371,7 +371,7 @@ header {
 
 #sidebar {
   height: 100vh;
-  height: 100svh;
+  height: 100dvh;
   width: 310px;
   padding: 0px 20px 250px 20px;
   margin-bottom: 50px;
