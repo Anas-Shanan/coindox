@@ -17,12 +17,11 @@
     display: flex;
     justify-content: space-between;
     /*     width: min(1294px, 98%);
+    
  */
-    width: min(calc(100% - 1.5rem), 1294px);
 
-    /*     display: grid;
-    grid-column: 2 / 3;
-    grid-template-columns: subgrid; */
+    width: min(calc(100% - 1.5rem), 1294px);
+    overflow-x: hidden;
 
     background-color: #111828;
     z-index: 100;
@@ -46,7 +45,7 @@
 @keyframes fadein-up {
   0% {
     opacity: 0;
-    transform: translateY(100px);
+    transform: translateY(150px);
   }
 
   100% {
