@@ -95,15 +95,15 @@ section.contact-page-part-1 {
       position: absolute;
     }
     *:nth-child(1) {
-      top: 12%;
+      top: 20%;
       left: 5%;
     }
     *:nth-child(2) {
       bottom: 1%;
-      left: 4%;
+      left: 1%;
     }
     *:nth-child(3) {
-      top: 15%;
+      top: 25%;
       right: 5%;
     }
     *:nth-child(4) {
