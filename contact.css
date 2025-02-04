@@ -95,12 +95,12 @@ section.contact-page-part-1 {
       position: absolute;
     }
     *:nth-child(1) {
-      top: 20%;
+      top: 27%;
       left: 5%;
     }
     *:nth-child(2) {
-      bottom: 1%;
-      left: 1%;
+      bottom: 2%;
+      left: 0%;
     }
     *:nth-child(3) {
       top: 25%;

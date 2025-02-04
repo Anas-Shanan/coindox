@@ -3,12 +3,14 @@
   src: url(./fonts/Outfit-VariableFont_wght.ttf);
   font-family: "Outfit";
   font-weight: 400;
+  font-display: swap;
 }
 @font-face {
   font-family: "PlusJakartaSans";
   src: url(./fonts/PlusJakartaSans-VariableFont_wght.ttf);
   font-family: "PlusJakartaSans";
   font-weight: 400;
+  font-display: swap;
 }
 
 @keyframes fadein {
@@ -35,7 +37,7 @@
 @keyframes fadein-up {
   0% {
     opacity: 0;
-    transform: translateY(150px);
+    transform: translateY(120px);
   }
 
   100% {
