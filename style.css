@@ -250,6 +250,14 @@ body {
   .about-hidden-img > .ab-img1 {
     display: none;
   }
+  .icons-contact-page {
+    *:nth-child(2) {
+      display: none;
+    }
+    *:nth-child(4) {
+      display: none;
+    }
+  }
 }
 
 header {
@@ -490,8 +498,8 @@ section.hero {
     text-transform: capitalize;
     letter-spacing: -0.18px;
     max-width: 412px;
-    width: 100%;
-    padding: 22px 50px;
+    width: 80%;
+    padding: 20px 50px;
     background: linear-gradient(90deg, #45acab, #4788ac);
     position: relative;
   }
@@ -683,8 +691,7 @@ section.services {
 }
 
 .serve-card:hover:before {
-  opacity: 1;
-  transform: scale(1);
+  opacity: 0.7;
 }
 
 /* Here Feature section start- 
