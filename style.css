@@ -395,6 +395,7 @@ header {
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 101;
 
   & *:has(a) {
     padding: 5px 0px;
