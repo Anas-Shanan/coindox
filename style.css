@@ -109,7 +109,8 @@ body {
     .block,
     .zone,
     .social,
-    .links {
+    .links,
+    .contact-page-part-2 > div {
       max-width: 330px;
       width: 50%;
       /* flex: 0 0 auto; */
@@ -153,7 +154,8 @@ body {
     .block,
     .zone,
     .social,
-    .links {
+    .links,
+    .contact-page-part-2 > div {
       /* width: clamp(31.65%, 31.65%, 32.4%); */
       width: 31.65%;
       max-width: 33%;
@@ -473,7 +475,7 @@ section.hero {
   padding-top: 35px;
 }
 .hero-bitcoin-text {
-  margin-top: 80px;
+  margin-top: 70px;
   h1.title {
     color: var(--h1-color);
     font-size: 50px;

@@ -14,28 +14,18 @@
 @keyframes fadein {
   to {
     position: fixed;
-    display: flex;
-    justify-content: space-between;
-    /*     width: min(1294px, 98%);
-    
- */
+    right: 12px;
+    left: 12px;
+    padding-left: 1%;
+    padding-right: 2%;
+    max-width: 100%;
 
-    width: min(calc(100% - 1.5rem), 1294px);
-    overflow-x: hidden;
-
+    /* width: min(calc(100% - 1.5rem), 1294px); */
+    /* overflow-x: hidden; */
     background-color: #111828;
     z-index: 100;
   }
 }
-/* @keyframes fadein-header {
-  to {
-    
-    grid-column: 2 / 3;
-    
-
-  }
-}
- */
 .fadein-up {
   animation: fadein-up ease forwards;
   animation-timeline: view();
