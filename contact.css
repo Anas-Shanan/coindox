@@ -50,7 +50,7 @@ section {
 }
 section.contact-page-part-1 {
   height: 290px;
-  padding: 120px 0 20px 0;
+  padding: 150px 0 20px 0;
   position: relative;
   h1,
   h3 {
@@ -95,20 +95,20 @@ section.contact-page-part-1 {
       position: absolute;
     }
     *:nth-child(1) {
-      top: 10%;
+      top: 12%;
       left: 5%;
     }
     *:nth-child(2) {
       bottom: 1%;
-      left: 5%;
+      left: 4%;
     }
     *:nth-child(3) {
-      top: 10%;
+      top: 15%;
       right: 5%;
     }
     *:nth-child(4) {
-      bottom: 1%;
-      right: 5%;
+      bottom: 0%;
+      right: 2%;
     }
   }
 }
